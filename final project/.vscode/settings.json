@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "bbb_regs.h": "c",
+        "hw_types.h": "c"
+    }
+}

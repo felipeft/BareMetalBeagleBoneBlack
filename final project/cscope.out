@@ -1,0 +1,947 @@
+cscope 15 $HOME/UFC/disciplinas/QXD0149/lab/timer_int               0000005458
+	@inc/bbb_regs.h
+
+1 #i‚de‡
+_BBB_REGS_H_
+
+
+2 
+	#_BBB_REGS_H_
+
+
+	)
+
+26 
+	#INTC_BASE
+ 0x48200000
+
+	)
+
+27 
+	#INTC_SIR_IRQ
+ 0x48200040
+
+	)
+
+28 
+	#INTC_CONTROL
+ 0x48200048
+
+	)
+
+29 
+	#INTC_ILR
+ 0x48200100
+
+	)
+
+30 
+	#INTC_MIR_CLEAR2
+ 0x482000C8
+
+	)
+
+31 
+	#INTC_SYSCONFIG
+ 0x48200010
+
+	)
+
+32 
+	#INTC_SYSSTATUS
+ 0x48200014
+
+	)
+
+33 
+	#INTC_THRESHOLD
+ 0x48200068
+
+	)
+
+36 
+	#UART0_BASE
+ 0x44E09000
+
+	)
+
+37 
+	#UART0_RHR
+ 0x44E09000
+
+	)
+
+38 
+	#UART0_THR
+ 0x44E09000
+
+	)
+
+39 
+	#UART0_LSR
+ 0x44E09014
+
+	)
+
+42 
+	#WDT_BASE
+ 0x44E35000
+
+	)
+
+43 
+	#WDT_WSPR
+ 0x44E35048
+
+	)
+
+44 
+	#WDT_WWPS
+ 0x44E35034
+
+	)
+
+47 
+	#CM_PER_GPIO1_CLKCTRL
+ 0x44E000AC
+
+	)
+
+48 
+	#CM_PER_RTC_RTC_CLKCTRL
+ 0x44E00800
+
+	)
+
+49 
+	#CM_PER_RTC_CLKSTCTRL
+ 0x44E00804
+
+	)
+
+50 
+	#CM_PER_TIMER7_CLKCTRL
+ 0x44E0007C
+
+	)
+
+53 
+	#CM_PER_GMPCA6_REGS
+ 0x44E10818
+
+	)
+
+56 
+	#GPIO1_OE
+ 0x4804C134
+
+	)
+
+57 
+	#GPIO1_SETDATAOUT
+ 0x4804C194
+
+	)
+
+58 
+	#GPIO1_CLEARDATAOUT
+ 0x4804C190
+
+	)
+
+65 
+	#TIMER_1MS_COUNT
+ 0x5DC0u
+
+	)
+
+66 
+	#TIMER_OVERFLOW
+ 0xFFFFFFFFu
+
+	)
+
+70 
+	#SOC_DMTIMER_7_REGS
+ 0x4804A000
+
+	)
+
+71 
+	#DMTIMER_TIDR
+ 0x4804A000
+
+	)
+
+72 
+	#DMTIMER_TIOCP_CFG
+ 0x4804A010
+
+	)
+
+73 
+	#DMTIMER_IRQ_EOI
+ 0x4804A020
+
+	)
+
+74 
+	#DMTIMER_IRQSTATUS_RAW
+ 0x4804A024
+
+	)
+
+75 
+	#DMTIMER_IRQSTATUS
+ 0x4804A028
+
+	)
+
+76 
+	#DMTIMER_IRQENABLE_SET
+ 0x4804A02C
+
+	)
+
+77 
+	#DMTIMER_IRQENABLE_CLR
+ 0x4804A030
+
+	)
+
+78 
+	#DMTIMER_IRQWAKEEN
+ 0x4804A034
+
+	)
+
+79 
+	#DMTIMER_TCLR
+ 0x4804A038
+
+	)
+
+80 
+	#DMTIMER_TCRR
+ 0x4804A03C
+
+	)
+
+81 
+	#DMTIMER_TLDR
+ 0x4804A040
+
+	)
+
+82 
+	#DMTIMER_TTGR
+ 0x4804A044
+
+	)
+
+83 
+	#DMTIMER_TWPS
+ 0x4804A048
+
+	)
+
+84 
+	#DMTIMER_TMAR
+ 0x4804A04C
+
+	)
+
+85 
+	#DMTIMER_TCAR
+(
+n
+Ë(0x50 + ((“Ë- 1Ë* 8))
+
+	)
+
+86 
+	#DMTIMER_TSICR
+ 0x4804A054
+
+	)
+
+91 
+	#RTC_BASE
+ 0x44E3E000
+
+	)
+
+92 
+	#SECONDS_REG
+ 0x44E3E000
+
+	)
+
+93 
+	#MINUTES_REG
+ 0x44E3E004
+
+	)
+
+94 
+	#HOURS_REG
+ 0x44E3E008
+
+	)
+
+95 
+	#RTC_CTRL_REG
+ 0x44E3E040
+
+	)
+
+96 
+	#RTC_STATUS_REG
+ 0x44E3E044
+
+	)
+
+97 
+	#RTC_INTERRUPTS_REG
+ 0x44E3E048
+
+	)
+
+98 
+	#RTC_OSC_REG
+ 0x44E3E054
+
+	)
+
+99 
+	#KICK0R
+ 0x44E3E06C
+
+	)
+
+100 
+	#KICK1R
+ 0x44E3E070
+
+	)
+
+	@inc/hw_types.h
+
+1 #i‚de‡
+_HW_TYPES_H_
+
+
+2 
+	#_HW_TYPES_H_
+
+
+	)
+
+28 
+	ttBoﬁón
+;
+
+31 
+	måue
+ = 1,
+
+32 
+	mÁl£
+ = 0
+
+33 }
+	tboﬁ
+;
+
+35 #i‚de‡
+NULL
+
+
+36 
+	#NULL
+ ((*Ë0)
+
+	)
+
+44 
+	#HWREG
+(
+x
+) \
+
+45 (*((vﬁ©ûê*)(
+x
+)))
+
+	)
+
+46 
+	#HWREGH
+(
+x
+) \
+
+47 (*((vﬁ©ûê*)(
+x
+)))
+
+	)
+
+48 
+	#HWREGB
+(
+x
+) \
+
+49 (*((vﬁ©ûê*)(
+x
+)))
+
+	)
+
+50 
+	#HWREGBITW
+(
+x
+, 
+b
+) \
+
+51 
+	`HWREG
+((()(
+x
+) & 0xF0000000) | 0x02000000 | \
+
+52 ((()(
+x
+Ë& 0x000FFFFFË<< 5Ë| ((
+b
+Ë<< 2))
+
+	)
+
+53 
+	#HWREGBITH
+(
+x
+, 
+b
+) \
+
+54 
+	`HWREGH
+((()(
+x
+) & 0xF0000000) | 0x02000000 | \
+
+55 ((()(
+x
+Ë& 0x000FFFFFË<< 5Ë| ((
+b
+Ë<< 2))
+
+	)
+
+56 
+	#HWREGBITB
+(
+x
+, 
+b
+) \
+
+57 
+	`HWREGB
+((()(
+x
+) & 0xF0000000) | 0x02000000 | \
+
+58 ((()(
+x
+Ë& 0x000FFFFFË<< 5Ë| ((
+b
+Ë<< 2))
+
+	)
+
+60 
+	#TRUE
+ 1
+
+	)
+
+61 
+	#FALSE
+ 0
+
+	)
+
+	@src/main.c
+
+19 
+	~"bbb_ªgs.h
+"
+
+20 
+	~"hw_ty≥s.h
+"
+
+22 
+	gÊag_timî
+ = 
+Ál£
+;
+
+30 
+	$dißbÀWdt
+(){
+
+31 
+	`HWREG
+(
+WDT_WSPR
+) = 0xAAAA;
+
+32 (
+	`HWREG
+(
+WDT_WWPS
+) & (1<<4)));
+
+34 
+	`HWREG
+(
+WDT_WSPR
+) = 0x5555;
+
+35 (
+	`HWREG
+(
+WDT_WWPS
+) & (1<<4)));
+
+36 
+	}
+}
+
+45 
+	$putCh
+(
+c
+){
+
+46 !(
+	`HWREG
+(
+UART0_LSR
+) & (1<<5)));
+
+48 
+	`HWREG
+(
+UART0_THR
+Ë
+c
+;
+
+49 
+	}
+}
+
+57 
+	$gëCh
+(){
+
+58 !(
+	`HWREG
+(
+UART0_LSR
+) & (1<<0)));
+
+60 (
+	`HWREG
+(
+UART0_RHR
+));
+
+61 
+	}
+}
+
+69 
+	$putSåög
+(*
+°r
+, 
+Àngth
+){
+
+70 
+i
+ = 0; i < 
+Àngth
+; i++){
+
+71 
+	`putCh
+(
+°r
+[
+i
+]);
+
+73 (
+Àngth
+);
+
+74 
+	}
+}
+
+82 
+	$gëSåög
+(*
+buf
+, 
+Àngth
+){
+
+83 
+i
+ = 0; i < 
+Àngth
+; i ++){
+
+84 
+buf
+[
+i
+] = 
+	`gëCh
+();
+
+86 (
+Àngth
+);
+
+87 
+	}
+}
+
+95 
+	$timîE«bÀ
+(){
+
+97 if(
+	`HWREG
+(
+DMTIMER_TSICR
+) & 0x4)
+
+98 0x1 & 
+	`HWREG
+(
+DMTIMER_TWPS
+));
+
+101 
+	`HWREG
+(
+DMTIMER_TCLR
+) |= 0x1;
+
+102 
+	}
+}
+
+110 
+	$timîDißbÀ
+(){
+
+112 if(
+	`HWREG
+(
+DMTIMER_TSICR
+) & 0x4)
+
+113 0x1 & 
+	`HWREG
+(
+DMTIMER_TWPS
+));
+
+116 
+	`HWREG
+(
+DMTIMER_TCLR
+) &= ~(0x1);
+
+117 
+	}
+}
+
+125 
+	$dñay
+(
+mSec
+){
+
+127 
+cou¡VÆ
+ = 
+TIMER_OVERFLOW
+ - (
+mSec
+ * 
+TIMER_1MS_COUNT
+);
+
+130 if(
+	`HWREG
+(
+DMTIMER_TSICR
+) & 0x4)
+
+131 0x4 & 
+	`HWREG
+(
+DMTIMER_TWPS
+));
+
+134 
+	`HWREG
+(
+DMTIMER_TLDR
+Ë
+cou¡VÆ
+;
+
+136 
+Êag_timî
+ = 
+Ál£
+;
+
+139 
+	`HWREG
+(
+DMTIMER_IRQENABLE_SET
+) = 0x2;
+
+142 
+	`timîE«bÀ
+();
+
+144 
+Êag_timî
+ =
+Ál£
+);
+
+147 
+	`HWREG
+(
+DMTIMER_IRQENABLE_CLR
+) = 0x2;
+
+148 
+	}
+}
+
+156 
+	$timîSëup
+(){
+
+158 
+	`HWREG
+(
+CM_PER_TIMER7_CLKCTRL
+) |= 0x2;
+
+160 (
+	`HWREG
+(
+CM_PER_TIMER7_CLKCTRL
+) & 0x3) != 0x2);
+
+163 
+	`HWREG
+(
+INTC_MIR_CLEAR2
+) |= (1<<31);
+
+165 
+	}
+}
+
+173 
+	$gpioSëup
+(){
+
+175 
+	`HWREG
+(
+CM_PER_GPIO1_CLKCTRL
+) = 0x40002;
+
+178 
+	`HWREG
+(
+GPIO1_OE
+) &= ~(1<<21);
+
+179 
+	}
+}
+
+187 
+	$ÀdOff
+(){
+
+188 
+	`HWREG
+(
+GPIO1_CLEARDATAOUT
+) = (1<<21);
+
+189 
+	}
+}
+
+197 
+	$ÀdOn
+(){
+
+198 
+	`HWREG
+(
+GPIO1_SETDATAOUT
+) = (1<<21);
+
+199 
+	}
+}
+
+207 
+	$timîIrqH™dÀr
+(){
+
+210 
+	`HWREG
+(
+DMTIMER_IRQSTATUS
+) = 0x2&(0x4|0x2|0x1);
+
+212 
+Êag_timî
+ = 
+åue
+;
+
+215 
+	`timîDißbÀ
+();
+
+219 
+	}
+}
+
+227 
+	$IRQ_H™dÀr
+(){
+
+229 
+úq_numbî
+ = 
+	`HWREG
+(
+INTC_SIR_IRQ
+) & 0x7f;
+
+230 
+	`putCh
+('I');
+
+231 if(
+úq_numbî
+ == 95)
+
+232 
+	`timîIrqH™dÀr
+();
+
+235 
+	`HWREG
+(
+INTC_CONTROL
+) = 0x1;
+
+236 
+	}
+}
+
+244 
+	$maö
+(){
+
+245 
+cou¡
+=9;
+
+248 
+	`gpioSëup
+();
+
+249 
+	`timîSëup
+();
+
+250 
+	`dißbÀWdt
+();
+
+252 
+	`putSåög
+("Timer Interrupt: ",17);
+
+254 
+cou¡
+){
+
+255 
+	`putCh
+(0x30+
+cou¡
+);
+
+256 
+	`putCh
+(' ');
+
+257 
+	`dñay
+(1000);
+
+258 
+cou¡
+--;
+
+260 
+	`putSåög
+("...OK",5);
+
+263 
+	}
+}
+
+	@
+1
+.
+1
+/usr/include
+3
+41
+inc/bbb_regs.h
+inc/hw_types.h
+src/main.c

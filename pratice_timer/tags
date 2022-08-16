@@ -1,0 +1,89 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CM_PER_GMPCA6_REGS	inc/bbb_regs.h	53;"	d
+CM_PER_GPIO1_CLKCTRL	inc/bbb_regs.h	47;"	d
+CM_PER_RTC_CLKSTCTRL	inc/bbb_regs.h	49;"	d
+CM_PER_RTC_RTC_CLKCTRL	inc/bbb_regs.h	48;"	d
+CM_PER_TIMER7_CLKCTRL	inc/bbb_regs.h	50;"	d
+DMTIMER_IRQENABLE_CLR	inc/bbb_regs.h	77;"	d
+DMTIMER_IRQENABLE_SET	inc/bbb_regs.h	76;"	d
+DMTIMER_IRQSTATUS	inc/bbb_regs.h	75;"	d
+DMTIMER_IRQSTATUS_RAW	inc/bbb_regs.h	74;"	d
+DMTIMER_IRQWAKEEN	inc/bbb_regs.h	78;"	d
+DMTIMER_IRQ_EOI	inc/bbb_regs.h	73;"	d
+DMTIMER_TCAR	inc/bbb_regs.h	85;"	d
+DMTIMER_TCLR	inc/bbb_regs.h	79;"	d
+DMTIMER_TCRR	inc/bbb_regs.h	80;"	d
+DMTIMER_TIDR	inc/bbb_regs.h	71;"	d
+DMTIMER_TIOCP_CFG	inc/bbb_regs.h	72;"	d
+DMTIMER_TLDR	inc/bbb_regs.h	81;"	d
+DMTIMER_TMAR	inc/bbb_regs.h	84;"	d
+DMTIMER_TSICR	inc/bbb_regs.h	86;"	d
+DMTIMER_TTGR	inc/bbb_regs.h	82;"	d
+DMTIMER_TWPS	inc/bbb_regs.h	83;"	d
+FALSE	inc/hw_types.h	61;"	d
+GPIO1_CLEARDATAOUT	inc/bbb_regs.h	58;"	d
+GPIO1_OE	inc/bbb_regs.h	56;"	d
+GPIO1_SETDATAOUT	inc/bbb_regs.h	57;"	d
+HOURS_REG	inc/bbb_regs.h	94;"	d
+HWREG	inc/hw_types.h	44;"	d
+HWREGB	inc/hw_types.h	48;"	d
+HWREGBITB	inc/hw_types.h	56;"	d
+HWREGBITH	inc/hw_types.h	53;"	d
+HWREGBITW	inc/hw_types.h	50;"	d
+HWREGH	inc/hw_types.h	46;"	d
+INTC_BASE	inc/bbb_regs.h	26;"	d
+INTC_CONTROL	inc/bbb_regs.h	28;"	d
+INTC_ILR	inc/bbb_regs.h	29;"	d
+INTC_MIR_CLEAR2	inc/bbb_regs.h	30;"	d
+INTC_SIR_IRQ	inc/bbb_regs.h	27;"	d
+INTC_SYSCONFIG	inc/bbb_regs.h	31;"	d
+INTC_SYSSTATUS	inc/bbb_regs.h	32;"	d
+INTC_THRESHOLD	inc/bbb_regs.h	33;"	d
+IRQ_Handler	src/main.c	/^void IRQ_Handler(void){$/;"	f	signature:(void)
+KICK0R	inc/bbb_regs.h	99;"	d
+KICK1R	inc/bbb_regs.h	100;"	d
+MINUTES_REG	inc/bbb_regs.h	93;"	d
+NULL	inc/hw_types.h	36;"	d
+RTC_BASE	inc/bbb_regs.h	91;"	d
+RTC_CTRL_REG	inc/bbb_regs.h	95;"	d
+RTC_INTERRUPTS_REG	inc/bbb_regs.h	97;"	d
+RTC_OSC_REG	inc/bbb_regs.h	98;"	d
+RTC_STATUS_REG	inc/bbb_regs.h	96;"	d
+SECONDS_REG	inc/bbb_regs.h	92;"	d
+SOC_DMTIMER_7_REGS	inc/bbb_regs.h	70;"	d
+TIMER_1MS_COUNT	inc/bbb_regs.h	65;"	d
+TIMER_OVERFLOW	inc/bbb_regs.h	66;"	d
+TRUE	inc/hw_types.h	60;"	d
+UART0_BASE	inc/bbb_regs.h	36;"	d
+UART0_LSR	inc/bbb_regs.h	39;"	d
+UART0_RHR	inc/bbb_regs.h	37;"	d
+UART0_THR	inc/bbb_regs.h	38;"	d
+WDT_BASE	inc/bbb_regs.h	42;"	d
+WDT_WSPR	inc/bbb_regs.h	43;"	d
+WDT_WWPS	inc/bbb_regs.h	44;"	d
+_BBB_REGS_H_	inc/bbb_regs.h	2;"	d
+_HW_TYPES_H_	inc/hw_types.h	2;"	d
+bool	inc/hw_types.h	/^}bool;$/;"	t	typeref:enum:__anon1
+delay	src/main.c	/^void delay(unsigned int mSec){$/;"	f	signature:(unsigned int mSec)
+disableWdt	src/main.c	/^void disableWdt(void){$/;"	f	signature:(void)
+false	inc/hw_types.h	/^   false = 0$/;"	e	enum:__anon1
+flag_timer	src/main.c	/^int flag_timer = false;$/;"	v
+getCh	src/main.c	/^char getCh(){$/;"	f
+getString	src/main.c	/^int getString(char *buf, unsigned int length){$/;"	f	signature:(char *buf, unsigned int length)
+gpioSetup	src/main.c	/^void gpioSetup(){$/;"	f
+ledOff	src/main.c	/^void ledOff(void){$/;"	f	signature:(void)
+ledOn	src/main.c	/^void ledOn(void){$/;"	f	signature:(void)
+main	src/main.c	/^int main(void){$/;"	f	signature:(void)
+putCh	src/main.c	/^void putCh(char c){$/;"	f	signature:(char c)
+putString	src/main.c	/^int putString(char *str, unsigned int length){$/;"	f	signature:(char *str, unsigned int length)
+tBoolean	inc/hw_types.h	/^typedef unsigned char tBoolean;$/;"	t
+timerDisable	src/main.c	/^void timerDisable(){$/;"	f
+timerEnable	src/main.c	/^void timerEnable(){$/;"	f
+timerIrqHandler	src/main.c	/^void timerIrqHandler(void){$/;"	f	signature:(void)
+timerSetup	src/main.c	/^void timerSetup(void){$/;"	f	signature:(void)
+true	inc/hw_types.h	/^   true = 1,$/;"	e	enum:__anon1

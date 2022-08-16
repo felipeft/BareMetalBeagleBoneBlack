@@ -1,0 +1,133 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CM_PER_GPIO1	src/main.c	28;"	d	file:
+CM_PER_GPIO1_CLKCTRL_MODULEMODE_ENABLE	src/main.c	29;"	d	file:
+CM_PER_GPIO1_CLKCTRL_OPTFCLKEN_GPIO_1_GDBCLK	src/main.c	30;"	d	file:
+CM_conf_gpmc_a5	src/main.c	33;"	d	file:
+CM_conf_gpmc_ben1	src/main.c	32;"	d	file:
+FALSE	inc/hw_types.h	83;"	d
+GPIO_CLEARDATAOUT	src/main.c	36;"	d	file:
+GPIO_OE	src/main.c	35;"	d	file:
+GPIO_SETDATAOUT	src/main.c	37;"	d	file:
+HWREG	inc/hw_types.h	66;"	d
+HWREGB	inc/hw_types.h	70;"	d
+HWREGBITB	inc/hw_types.h	78;"	d
+HWREGBITH	inc/hw_types.h	75;"	d
+HWREGBITW	inc/hw_types.h	72;"	d
+HWREGH	inc/hw_types.h	68;"	d
+NULL	inc/hw_types.h	58;"	d
+SOC_ADC_TSC_0_REGS	inc/soc_AM335x.h	175;"	d
+SOC_AINTC_REGS	inc/soc_AM335x.h	55;"	d
+SOC_CACHELINE_SIZE_MAX	inc/soc_AM335x.h	52;"	d
+SOC_CM_CEFUSE_REGS	inc/soc_AM335x.h	145;"	d
+SOC_CM_DEVICE_REGS	inc/soc_AM335x.h	142;"	d
+SOC_CM_DPLL_REGS	inc/soc_AM335x.h	140;"	d
+SOC_CM_GFX_REGS	inc/soc_AM335x.h	144;"	d
+SOC_CM_MPU_REGS	inc/soc_AM335x.h	141;"	d
+SOC_CM_PER_REGS	inc/soc_AM335x.h	138;"	d
+SOC_CM_RTC_REGS	inc/soc_AM335x.h	143;"	d
+SOC_CM_WKUP_REGS	inc/soc_AM335x.h	139;"	d
+SOC_CONTROL_REGS	inc/soc_AM335x.h	156;"	d
+SOC_CPSW_ALE_REGS	inc/soc_AM335x.h	113;"	d
+SOC_CPSW_CPDMA_REGS	inc/soc_AM335x.h	112;"	d
+SOC_CPSW_CPPI_RAM_REGS	inc/soc_AM335x.h	120;"	d
+SOC_CPSW_MDIO_REGS	inc/soc_AM335x.h	110;"	d
+SOC_CPSW_PORT_0_REGS	inc/soc_AM335x.h	115;"	d
+SOC_CPSW_PORT_1_REGS	inc/soc_AM335x.h	116;"	d
+SOC_CPSW_PORT_2_REGS	inc/soc_AM335x.h	118;"	d
+SOC_CPSW_SLIVER_1_REGS	inc/soc_AM335x.h	117;"	d
+SOC_CPSW_SLIVER_2_REGS	inc/soc_AM335x.h	119;"	d
+SOC_CPSW_SS_REGS	inc/soc_AM335x.h	109;"	d
+SOC_CPSW_STAT_REGS	inc/soc_AM335x.h	114;"	d
+SOC_CPSW_WR_REGS	inc/soc_AM335x.h	111;"	d
+SOC_DCAN_0_REGS	inc/soc_AM335x.h	163;"	d
+SOC_DCAN_1_REGS	inc/soc_AM335x.h	164;"	d
+SOC_DMTIMER_0_REGS	inc/soc_AM335x.h	79;"	d
+SOC_DMTIMER_1_REGS	inc/soc_AM335x.h	80;"	d
+SOC_DMTIMER_2_REGS	inc/soc_AM335x.h	81;"	d
+SOC_DMTIMER_3_REGS	inc/soc_AM335x.h	82;"	d
+SOC_DMTIMER_4_REGS	inc/soc_AM335x.h	83;"	d
+SOC_DMTIMER_5_REGS	inc/soc_AM335x.h	84;"	d
+SOC_DMTIMER_6_REGS	inc/soc_AM335x.h	85;"	d
+SOC_DMTIMER_7_REGS	inc/soc_AM335x.h	86;"	d
+SOC_ECAP_0_REGS	inc/soc_AM335x.h	187;"	d
+SOC_ECAP_1_REGS	inc/soc_AM335x.h	188;"	d
+SOC_ECAP_2_REGS	inc/soc_AM335x.h	189;"	d
+SOC_ECAP_REGS	inc/soc_AM335x.h	183;"	d
+SOC_EDMA30CC_0_REGS	inc/soc_AM335x.h	160;"	d
+SOC_ELM_0_REGS	inc/soc_AM335x.h	97;"	d
+SOC_EMIF_0_REGS	inc/soc_AM335x.h	131;"	d
+SOC_EPWM_0_REGS	inc/soc_AM335x.h	195;"	d
+SOC_EPWM_1_REGS	inc/soc_AM335x.h	196;"	d
+SOC_EPWM_2_REGS	inc/soc_AM335x.h	197;"	d
+SOC_EPWM_MODULE_FREQ	inc/soc_AM335x.h	200;"	d
+SOC_EPWM_REGS	inc/soc_AM335x.h	185;"	d
+SOC_EQEP_0_REGS	inc/soc_AM335x.h	191;"	d
+SOC_EQEP_1_REGS	inc/soc_AM335x.h	192;"	d
+SOC_EQEP_2_REGS	inc/soc_AM335x.h	193;"	d
+SOC_EQEP_REGS	inc/soc_AM335x.h	184;"	d
+SOC_GPIO_0_REGS	inc/soc_AM335x.h	73;"	d
+SOC_GPIO_1_REGS	inc/soc_AM335x.h	74;"	d
+SOC_GPIO_2_REGS	inc/soc_AM335x.h	75;"	d
+SOC_GPIO_3_REGS	inc/soc_AM335x.h	76;"	d
+SOC_GPMC_0_REGS	inc/soc_AM335x.h	94;"	d
+SOC_I2C_0_REGS	inc/soc_AM335x.h	100;"	d
+SOC_I2C_1_REGS	inc/soc_AM335x.h	101;"	d
+SOC_I2C_2_REGS	inc/soc_AM335x.h	102;"	d
+SOC_LCDC_0_REGS	inc/soc_AM335x.h	173;"	d
+SOC_MCASP_0_CTRL_REGS	inc/soc_AM335x.h	123;"	d
+SOC_MCASP_0_DATA_REGS	inc/soc_AM335x.h	125;"	d
+SOC_MCASP_0_FIFO_REGS	inc/soc_AM335x.h	124;"	d
+SOC_MCASP_1_CTRL_REGS	inc/soc_AM335x.h	126;"	d
+SOC_MCASP_1_DATA_REGS	inc/soc_AM335x.h	128;"	d
+SOC_MCASP_1_FIFO_REGS	inc/soc_AM335x.h	127;"	d
+SOC_MMCHS_0_REGS	inc/soc_AM335x.h	89;"	d
+SOC_MMCHS_1_REGS	inc/soc_AM335x.h	90;"	d
+SOC_MMCHS_2_REGS	inc/soc_AM335x.h	91;"	d
+SOC_OCP_SOCKET_RAM_REGS	inc/soc_AM335x.h	146;"	d
+SOC_PRCM_REGS	inc/soc_AM335x.h	137;"	d
+SOC_PRM_CEFUSE_REGS	inc/soc_AM335x.h	153;"	d
+SOC_PRM_DEVICE_REGS	inc/soc_AM335x.h	150;"	d
+SOC_PRM_GFX_REGS	inc/soc_AM335x.h	152;"	d
+SOC_PRM_MPU_REGS	inc/soc_AM335x.h	149;"	d
+SOC_PRM_PER_REGS	inc/soc_AM335x.h	147;"	d
+SOC_PRM_RTC_REGS	inc/soc_AM335x.h	151;"	d
+SOC_PRM_WKUP_REGS	inc/soc_AM335x.h	148;"	d
+SOC_PWMSS0_REGS	inc/soc_AM335x.h	179;"	d
+SOC_PWMSS1_REGS	inc/soc_AM335x.h	180;"	d
+SOC_PWMSS2_REGS	inc/soc_AM335x.h	181;"	d
+SOC_RTC_0_REGS	inc/soc_AM335x.h	134;"	d
+SOC_SPI_0_REGS	inc/soc_AM335x.h	69;"	d
+SOC_SPI_1_REGS	inc/soc_AM335x.h	70;"	d
+SOC_UART_0_REGS	inc/soc_AM335x.h	58;"	d
+SOC_UART_1_REGS	inc/soc_AM335x.h	59;"	d
+SOC_UART_2_REGS	inc/soc_AM335x.h	60;"	d
+SOC_UART_3_REGS	inc/soc_AM335x.h	61;"	d
+SOC_UART_4_REGS	inc/soc_AM335x.h	62;"	d
+SOC_UART_5_REGS	inc/soc_AM335x.h	63;"	d
+SOC_USB_0_BASE	inc/soc_AM335x.h	66;"	d
+SOC_USB_1_BASE	inc/soc_AM335x.h	67;"	d
+SOC_WDT_0_REGS	inc/soc_AM335x.h	105;"	d
+SOC_WDT_1_REGS	inc/soc_AM335x.h	106;"	d
+TIME	src/main.c	25;"	d	file:
+TOGGLE	src/main.c	26;"	d	file:
+TPCC_MUX	inc/soc_AM335x.h	170;"	d
+TRUE	inc/hw_types.h	82;"	d
+_HW_TYPES_H_	inc/hw_types.h	43;"	d
+_SOC_AM33XX_H_	inc/soc_AM335x.h	45;"	d
+_main	src/main.c	/^int _main(void){$/;"	f	signature:(void)
+bool	inc/hw_types.h	/^}bool;$/;"	t	typeref:enum:__anon1
+delay	src/main.c	/^static void delay();$/;"	p	file:
+delay	src/main.c	/^static void delay(){$/;"	f	file:
+false	inc/hw_types.h	/^   false = 0$/;"	e	enum:__anon1
+flagBlink	src/main.c	/^unsigned int flagBlink;$/;"	v
+ledInit	src/main.c	/^static void ledInit();$/;"	p	file:
+ledInit	src/main.c	/^void ledInit( ){$/;"	f
+ledToggle	src/main.c	/^static void ledToggle();$/;"	p	file:
+ledToggle	src/main.c	/^void ledToggle( ){$/;"	f
+tBoolean	inc/hw_types.h	/^typedef unsigned char tBoolean;$/;"	t
+true	inc/hw_types.h	/^   true = 1,$/;"	e	enum:__anon1
