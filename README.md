@@ -1,4 +1,2 @@
 # BareMetalBeagleBoneBlack
-Some codes made by me to practice bare metal programming in C.
-The board used was the Beagle Bone Black
-
+some Bare-Metal programming codes made by me during the embedded programming course in college. The board used was the BeagleBoneBlack
